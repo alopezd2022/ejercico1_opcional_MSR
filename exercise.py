@@ -8,7 +8,7 @@ p.setGravity(0,0,-9.8)
 
 planeId = p.loadURDF("plane.urdf")
 
-robotId = p.loadURDF("exercise.urdf")
+robotId = p.loadURDF("ejercico1_opcional_MSR/exercise.urdf")
 
 frictionId = p.addUserDebugParameter("friction", 0, 10, 0)
 torqueID = p.addUserDebugParameter("torque",-10,10,0)
